@@ -1,7 +1,8 @@
-var app = angular.module('MyApp', []);
-app.controller("MainCtrl", function ($scope) {
+var app=angular.module('MyApp',[]);
+
+app.controller('MainCtrl', function ($scope) {
     $scope.data = {
-        label: "SChaturvedula",
-        class: "btn-success"
-    };
+        label: "Hello Button",
+        class: "btn-primary"
+    }
 });
